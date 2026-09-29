@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.env
+.pytest_cache/
+
+# Local database
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Uploaded documents
+backend/uploads/
+uploads/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
